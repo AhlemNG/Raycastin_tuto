@@ -15,7 +15,7 @@ OBJS= ${SRCS:.c=.o}
 
 OBJS_BONUS= ${SRCS_BONUS:.c=.o}
 CC= cc
-FLAGS= -Wall -Wextra -Werror -g3 #-fsanitize=address 
+FLAGS= -Wall -Wextra -Werror -g3 -fsanitize=address 
 
 RM=rm -f
 
